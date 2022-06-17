@@ -9,14 +9,23 @@ ${reset}
 	}
 
 	body {
+		position:relative;
 		width:100%;
-		height:100vh;
+		height:1080px;
 		font-family:'Source Sans Pro', sans-serif;
-		background-color:${(props) => props.theme.bgColor};
+		background:linear-gradient(135deg,#12c2e9,#c471ed,#f64f59);
 	}
 	a{
 		color:inherit;
 		text-decoration:none;
+		padding:20px;
+		height: 40px;
+		border: 1px solid #000;
+		border-radius: 20px;
+		margin: 20px 0 0 20px;
+		display:inline-block;
+		text-align:center;
+		line-height:5px;
 	}
 	li{
 		list-style:none;

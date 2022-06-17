@@ -1,12 +1,12 @@
-import styled from "styled-components";
 import GlobalStyle from "./GlobalStyle";
 
-const Wrapper = styled.div``;
+import Router from "./Router";
 
 function App() {
 	return (
 		<>
 			<GlobalStyle />
+			<Router />
 		</>
 	);
 }
