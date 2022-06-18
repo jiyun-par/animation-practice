@@ -8,6 +8,14 @@ import {
 	useViewportScroll,
 	AnimatePresence,
 } from "framer-motion";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+body{
+	position:relative;
+	height:600vh !important;
+}
+`;
 
 const Wrapper = styled.div`
 	position: fixed;
@@ -194,6 +202,8 @@ function FramerPractice() {
 
 	return (
 		<>
+			<GlobalStyle />
+
 			<Link to="/">GO BACK</Link>
 			<Wrapper>
 				{/* Vriants  */}

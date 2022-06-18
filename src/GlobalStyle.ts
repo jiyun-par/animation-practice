@@ -11,7 +11,7 @@ ${reset}
 	body {
 		position:relative;
 		width:100%;
-		height:500vh;
+		height:100vh;
 		font-family:'Source Sans Pro', sans-serif;
 		background:linear-gradient(135deg,#12c2e9,#c471ed,#f64f59);
 	}
