@@ -11,13 +11,14 @@ ${reset}
 	body {
 		position:relative;
 		width:100%;
-		height:1080px;
+		height:500vh;
 		font-family:'Source Sans Pro', sans-serif;
 		background:linear-gradient(135deg,#12c2e9,#c471ed,#f64f59);
 	}
 	a{
 		color:inherit;
 		text-decoration:none;
+		margin: 20px 20px auto;
 		padding:20px;
 		height: 40px;
 		border: 1px solid #000;

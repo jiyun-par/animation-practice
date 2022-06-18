@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+body{
+	height:100vh;
+}
+`;
 
 const ButtonBox = styled.div`
 	position: absolute;
@@ -13,11 +20,14 @@ const ButtonBox = styled.div`
 `;
 function Home() {
 	return (
-		<ButtonBox>
-			<Link to="FramerDemo">Go to Framer Demo</Link>
-			<Link to="Slider">Go to Slider</Link>
-			<Link to="SharedLayout">Go to Shared Layout</Link>
-		</ButtonBox>
+		<>
+			<GlobalStyle />
+			<ButtonBox>
+				<Link to="FramerDemo">Go to Framer Demo</Link>
+				<Link to="Slider">Go to Slider</Link>
+				<Link to="SharedLayout">Go to Shared Layout</Link>
+			</ButtonBox>
+		</>
 	);
 }
 
