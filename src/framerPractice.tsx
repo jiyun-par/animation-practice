@@ -123,7 +123,7 @@ function FramerPractice() {
 
 	return (
 		<>
-			<Link to="/">GO BACK</Link>
+			<Link to="animation-practice">GO BACK</Link>
 			<Wrapper>
 				<Container>
 					<h1>Variants</h1>

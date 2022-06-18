@@ -57,7 +57,7 @@ function SharedLayout() {
 	console.log(id);
 	return (
 		<>
-			<Link to="/">GO BACK</Link>
+			<Link to="animation-practice">GO BACK</Link>
 			<Wrapper>
 				<Grid>
 					{["1", "2", "3", "4"].map((n) => (

@@ -72,10 +72,10 @@ function Slider() {
 		setBack(true);
 		setVisible((prev) => (prev === 1 ? 10 : prev - 1));
 	};
-//AnimatePresence에 exitBeforeEnter를 추가하면 entry와 leaving이 동시에 진행되지 않는다.
+	//AnimatePresence에 exitBeforeEnter를 추가하면 entry와 leaving이 동시에 진행되지 않는다.
 	return (
 		<>
-			<Link to="/">GO BACK</Link>
+			<Link to="animation-practice">GO BACK</Link>
 			<Wrapper>
 				<AnimatePresence custom={back}>
 					<Box

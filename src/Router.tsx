@@ -8,7 +8,7 @@ function Router() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="animation-practice" element={<Home />} />
 				<Route path="FramerDemo" element={<FramerPractice />} />
 				<Route path="Slider" element={<Slider />} />
 				<Route path="SharedLayout" element={<SharedLayout />} />
